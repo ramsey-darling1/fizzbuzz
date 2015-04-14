@@ -11,7 +11,7 @@ int main(){
 
     int count = 0;
     
-    while(count <= 101){
+    while(count <= 100){
         printf("%d",count);
         if(count % 3 == 0){
             printf(" fizz");
