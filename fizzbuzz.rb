@@ -2,7 +2,7 @@
 #@rdar
 
 (1..100).each do |n|
-    fizz = if n % 3 == 0 then 'fizz' else nil end
-    buzz = if n % 5 == 0 then 'buzz' else nil end
+    fizz = if n % 3 == 0 then 'fizz' end
+    buzz = if n % 5 == 0 then 'buzz' end
     puts "#{n} #{fizz}#{buzz}"
 end
